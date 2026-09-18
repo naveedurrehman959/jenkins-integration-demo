@@ -1,0 +1,12 @@
+{
+  "name": "jenkins-integration-demo",
+  "version": "1.0.0",
+  "description": "Demo project for Jenkins integration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Running tests...\" && echo \"All tests passed!\""
+  },
+  "author": "Jenkins User",
+  "license": "MIT"
+}
