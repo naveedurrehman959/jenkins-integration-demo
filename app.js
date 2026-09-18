@@ -12,3 +12,5 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+// Added feature: current timestamp
+console.log('Application started at:', new Date().toISOString());
